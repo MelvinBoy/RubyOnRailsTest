@@ -71,6 +71,7 @@ void SysUPDIntDisable(int which)
             nUPD1_SMBINT_Disable();
             break;
         case 1:
+            nUPD1_SMBINT_Disable();
             nUPD2_SMBINT_Disable();
             break;
     }
